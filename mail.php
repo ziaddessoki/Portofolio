@@ -7,7 +7,7 @@
 	$headers .= "From: ".$_POST['email']."\r\n";
 
 	if (!isset($_POST['subject'])) {
-		$subject = "Portfolio-Email"; // Enter your subject here
+		$subject = "Email from Portfolio Web"; // Enter your subject here
 	} else {
 		$subject = $_POST['subject'];
 	}
